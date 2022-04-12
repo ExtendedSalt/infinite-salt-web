@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  cursor: none !important;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+
+body {
+
+  background-color: black;
+  color: white;
+  font-family: 'Prompt', sans-serif;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  transition-duration: 250ms;
+}
+
+/* *::-webkit-scrollbar {
+  width: 10px;
+} */
+
+/* * {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+} */
+
+*::-webkit-scrollbar {
+  width: 5px;
+  transition-duration: 250ms;
+
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: #ffffff1a;
+  transition-duration: 250ms;
+
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  transition-duration: 250ms;
+
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 247, 255);
+  transition-duration: 250ms;
+
+}
+
+.cls-1,
+.cls-2 {
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+}
+
+.cls-1 {
+  stroke-width: 7px;
+}
+
+.cls-2 {
+  stroke-width: 16px;
+}
+
+.cls-3 {
+  font-size: 41.53px;
+}
+
+.cls-3,
+.cls-4,
+.cls-5 {
+  fill: #fff;
+}
+
+.cls-3,
+.cls-4 {
+  font-family: Montserrat-SemiBoldItalic, Montserrat;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.cls-4 {
+  font-size: 36.31px;
+}
+
+.cls-6 {
+  fill: #757575;
+}
